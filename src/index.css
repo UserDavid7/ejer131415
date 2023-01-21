@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-form{
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.formulario{
+  padding: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.formulario input{
+  width: 90%;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid rgb(165, 165, 165);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+.formulario input:hover{
+  margin-bottom: 35px;
+}
+.formulario select{
+  width: auto;
+  background-color: rgb(137, 137, 255);
+  height: 50px;
+  border-radius: 10px;
+  
+  transition: all .5s;
+}
+.formulario select:hover{
+ margin-bottom: 20px;
+}
+
+.errors{
+  margin: 10px 0px 20px 0px ;
+  color: tomato;
+}
+
+.btns{
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns button{
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  border: 0.5px solid gray;
+  transition: all .5s ;
+}
+.btns button:hover{
+  margin-bottom: 20px;
+}
